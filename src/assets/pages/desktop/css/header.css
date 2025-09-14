@@ -1,0 +1,22 @@
+header {
+    background-image: url(/img/pages/desktop/header/fon.gif);
+    background-size: cover;
+    height: 900px;
+
+    color: white;
+    font-family: 'Circe';
+}
+
+.fon-color {
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #324961B8;
+    opacity: 72%;
+    height: 100%;
+
+    padding-left: 147px;
+    padding-right: 147px;
+    padding-top: 65px;
+}

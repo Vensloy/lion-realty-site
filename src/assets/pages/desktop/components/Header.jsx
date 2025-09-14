@@ -4,6 +4,8 @@ import '../css/header.css'
 
 export default function Header() {
     return (
-        <header></header>
+        <header>
+            <div className='fon-color'></div>
+        </header>
     )
 }
