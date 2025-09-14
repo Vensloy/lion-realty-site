@@ -7,7 +7,7 @@ import { createRoot } from 'react-dom/client'
 import './reset.css'
 
 // -- Страницы сайта
-import Desktop from './assets/pages/desktop/Desktop'
+import Desktop from '../src/assets/pages/desktop/Desktop'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
