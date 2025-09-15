@@ -20,3 +20,21 @@ header {
     padding-right: 147px;
     padding-top: 65px;
 }
+
+/* ------ Header Section ------*/
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+menu {
+    gap: 10px;
+    display: flex;
+}
+
+nav {
+    gap: 15px;
+    display: flex;
+}
