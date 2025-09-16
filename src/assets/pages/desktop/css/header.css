@@ -13,7 +13,6 @@ header {
     flex-direction: column;
 
     background-color: #324961B8;
-    opacity: 72%;
     height: 100%;
 
     padding-left: 147px;
@@ -21,7 +20,7 @@ header {
     padding-top: 65px;
 }
 
-/* ------ Header Section ------*/
+/* ====== Header Section ====== */
 
 .header {
     display: flex;
@@ -29,12 +28,90 @@ header {
     align-items: center;
 }
 
-menu {
+.menu {
     gap: 10px;
     display: flex;
+
+    color: white;
 }
 
 nav {
     gap: 15px;
     display: flex;
+}
+
+.messengers {
+    gap: 15px;
+    display: flex;
+    align-items: baseline;
+}
+
+/* ====== Main Section ====== */
+
+.main {
+    padding-left: 150px;
+}
+
+/* ------ Main-left Section ------ */
+
+.main-left {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.house-name {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.house-info {
+    gap: 43px;
+    display: flex;
+}
+
+.info-header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.tags {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tags-line-one, 
+.tags-line-two {
+    gap: 10px;
+    display: flex;
+}
+
+.view-to-map {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+    background-color: #2489FF;
+    border-radius: 49px;
+    width: fit-content;
+
+    padding: 3px;
+    padding-right: 25px;
+
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+.map-to-button {
+    border-radius: 50%;
+    width: 55px; height: 55px;
+}
+
+.bottom-header {
+    gap: 80px;
+    display: flex;
+    align-items: center;
 }
